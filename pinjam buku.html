@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP</title>
+	<link rel="stylesheet" type="text/css" href="gaya.css"><!--memanggil file css-->
+</head>
+<body bgcolor="#3778c2">
+	<ul class="mainnav">
+		<li><img src="logo.png" width="55px"></li>
+		<li><a href="index.html">Beranda</a></li>
+		<li><a href="pinjam buku.html">Pinjam Buku</a></li>
+		<li><a href="daftar.php">Daftar Peminjam</a></li>
+		<li><a href="cari.html">Cari buku di Google</a></li>
+		<li class="kanan"><a href="https://www.facebook.com">facebook</a></li>
+	</ul>
+	<div class="main">
+		<h2>Pinjam Buku</h2>
+		<b>Masukkan data diri anda</b><br><br>
+		<form action="pinjam.php" method="POST">
+			<table>
+			<tr>
+				<td width="120px">Nama</td>
+				<td width="20px">:</td>
+				<td><input type="text" name="nama" size="21"></td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td>:</td>
+				<td><input type="number" name="nim"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input type="email" name="email" style="21"></td>
+			</tr>
+			<tr>				
+				<td>Prodi</td>
+				<td>:</td>
+				<td>
+					<select name="prodi">
+						<option value="Informatika">Informatika</option>
+						<option value="Industri">Industri</option>
+						<option value="Elektro">Elektro</option>
+					</select>
+				</td>
+			</tr>
+		</table><br>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Ulangi">
+		</form>
+	</div>
+</body>
+</html>

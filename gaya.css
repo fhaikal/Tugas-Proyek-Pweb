@@ -1,0 +1,88 @@
+/* home1 adalah class untuk beranda*/
+.home1{
+	width: 100%;
+	background-color: #3778c2; /*warna latar belakang*/
+}
+.home1 h2{
+	font-family: calibri; /*jenis font yang digunakan*/
+	font-weight: bold; /*font dibuat tebal*/
+	color: white; /*warna tulisan*/
+	letter-spacing: 10px; /*jarak per huruf*/
+	text-align: center; /*penempatan rata tengah*/
+}
+.home1 td{
+	font-family: calibri;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	text-align: center;
+}
+.home1 ul{
+	list-style-type: none;/*menghilangkan bullet*/
+	margin: 0;
+	padding: 0;
+	width: 210px;
+	overflow: hidden;
+	font-family: calibri;
+	font-size: 18px;
+	letter-spacing: 6px;
+	color: white;
+}
+.home1 a{
+	display: block;
+	font-family: calibri;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 14px 16px; /*mengatur jarak samping*/
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+}
+.home1 a:hover{ /*hover untuk style ketika mouse berada pada tempat tertentu*/
+	color: #3778c2;
+	background-color: white;
+}
+
+/*mainnav adalah class untuk navigasi bar*/
+.mainnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 25px;
+	overflow: hidden;
+}
+li {
+	float: left; /*supaya navbar dikiri*/
+}
+.kanan{
+	float: right;
+	margin-right: 45px;
+}
+li img{
+	display: inline;
+	padding-left: 50px;
+	padding-right: 25px;
+}
+li a {
+	display: block;
+	font-family: calibri;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	border: 2px solid;
+	border-radius: 50px;
+}
+
+/*main adalah class untuk mengatur style di div utama*/
+.main{
+	padding-top: 30px;
+	padding-left: 100px;
+	width: 100%;
+	background-color: #3778c2;
+	color: white;
+	font-family: calibri;
+}
